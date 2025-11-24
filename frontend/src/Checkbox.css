@@ -1,0 +1,199 @@
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0; /* Added a light border for visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox.variant1 {
+  /* No checkmark for this variant */
+}
+
+.checkbox.variant2 {
+  background-color: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  position: relative;
+}
+
+.checkbox.variant2::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #E3E3E3; /* Gray checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant3 {
+  background-color: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  box-shadow: 0px 0px 0px 3px rgba(36, 105, 246, 0.1); /* Outer alignment border */
+  position: relative;
+}
+
+.checkbox.variant3::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #878787; /* Gray checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant4 {
+  background-color: #5087F8; /* Blue background */
+  border: 1px solid #5087F8;
+  position: relative;
+}
+
+.checkbox.variant4::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #FFFFFF; /* White checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant5 {
+  background-color: #2469F6;
+  border: 1px solid #2469F6;
+  position: relative;
+}
+
+.checkbox.variant5::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #FFFFFF; /* White checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant6 {
+  background-color: #2196F3;
+  border: 1px solid #2196F3;
+  position: relative;
+}
+
+.checkbox.variant6::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #FFFFFF; /* White checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant7 {
+    background-color: #2469F6;
+    border: 1px solid #2469F6;
+    box-shadow: 0px 0px 0px 3px rgba(36, 105, 246, 0.1); /* Outer alignment border */
+    position: relative;
+  }
+  .checkbox.variant7::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 12px;
+    background-color: #FFFFFF; /* Gray checkmark */
+    mask-image: url('./assets/svg/Vector 141.svg');
+    -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.checkbox.variant8 {
+  background-color: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  position: relative;
+}
+
+.checkbox.variant8::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-color: #E3E3E3; /* Gray checkmark */
+  mask-image: url('./assets/svg/Vector 141.svg');
+  -webkit-mask-image: url('./assets/svg/Vector 141.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox.variant9 {
+  background-color: #FFFFFF;
+  border: 1px solid #CDCDCD;
+}
+
+.checkbox:hover {
+  /* No change for hover effect as per instant animation */
+}

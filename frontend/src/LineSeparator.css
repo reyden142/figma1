@@ -1,0 +1,7 @@
+.line-separator {
+  width: 333px; /* Content width of HomeItem (370 - 22 - 15) */
+  height: 0px;
+  border-top: 0.7px solid #CDCDCD;
+  margin: 0;
+  margin-left: 22px; /* Align with HomeItem's left padding */
+}

@@ -1,0 +1,35 @@
+.button {
+  width: 340px;
+  height: 40px;
+  border-radius: 4px;
+  /* angle: 0 deg; - not a direct CSS property, usually handled by transform: rotate() */
+  /* opacity: 1; - default, no need to set */
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  /* gap: 10px; - for flex/grid, apply to container */
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #1F2128;
+  cursor: pointer;
+}
+
+.button-box1 {
+  background: #FFCE22;
+}
+
+.button-box2 {
+  background: #FFD84D;
+}
+
+.button-box3 {
+  background: #FFCE22;
+}
+
+.button:hover {
+  background: #e6b300; /* A darker shade for hover effect */
+}
