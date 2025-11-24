@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Button from './Button';
-import Checkbox from './Checkbox';
-import HomeItem from './HomeItem';
-import Frame8445891 from './Frame8445891';
+import Button from './components/Button';
+import Checkbox from './components/Checkbox';
+import HomeItem from './components/HomeItem';
+import Frame8445891 from './components/Frame8445891';
 
 function App() {
   return (
